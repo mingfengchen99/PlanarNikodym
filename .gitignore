@@ -1,0 +1,20 @@
+# Dependency and build caches
+.lake
+*.olean
+*.ilean
+*.trace
+*.pyc
+__pycache__/
+.DS_Store
+
+# Generated verification outputs
+verification/.check.*
+verification/check.log
+verification/failed.log
+verification/summary.json
+verification/source-manifest.json
+verification/health-current.json
+
+# Local delivery archives
+*.zip
+*.zip.sha256

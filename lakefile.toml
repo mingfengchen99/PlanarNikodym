@@ -1,0 +1,12 @@
+name = "PlanarNikodym"
+version = "0.1.0"
+defaultTargets = ["PlanarNikodym"]
+moreLeanArgs = ["-DautoImplicit=false"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "360da6fa66c1273b76b6b2d8c5666fd5ac2e3b56"
+
+[[lean_lib]]
+name = "PlanarNikodym"

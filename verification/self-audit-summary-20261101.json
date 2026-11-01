@@ -1,0 +1,21 @@
+{
+  "verified_at_utc": "2026-11-01T15:00:12+00:00",
+  "lean_toolchain": "leanprover/lean4:v4.32.0-rc1",
+  "library_modules": 967,
+  "build_jobs": 4671,
+  "audited_declarations": 9018,
+  "audited_theorems": 7338,
+  "module_origin_declarations": 9157,
+  "module_origin_theorems": 7445,
+  "outside_namespace_declarations": 139,
+  "outside_namespace_theorems": 107,
+  "module_origin_modules": 967,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_digest": "ae5b4f7d398d40367d93c60738b88d7b14d952cc9e17e65ff4fb0ac92f25a8b2",
+  "check_log_sha256": "dc6b0fd63212f92f3ca87fb9e750702f119fc97e9e9a413b25f585d0088bbf2b",
+  "log": "verification/check.log"
+}

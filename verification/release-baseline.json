@@ -1,0 +1,21 @@
+{
+  "kind": "verified_formal_source_snapshot",
+  "verified_at_utc": "2026-11-01T08:14:42+00:00",
+  "verification_command": "bash scripts/check.sh",
+  "lean_toolchain": "leanprover/lean4:v4.32.0-rc1",
+  "mathlib_revision": "360da6fa66c1273b76b6b2d8c5666fd5ac2e3b56",
+  "source_digest": "e8146d2c4d8af5deba08c92d0b291520349d4367f11bbbdffc3d32ca250206e9",
+  "source_manifest": "verification/release-source-manifest.json",
+  "source_manifest_entries": 975,
+  "library_modules": 967,
+  "module_origin_declarations": 9157,
+  "module_origin_theorems": 7445,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "build_jobs": 4671,
+  "verification_log_sha256": "d4d391f9608091d76822d33615817ba93d9dc3d54fceb483a60d13466b2eca52",
+  "publication_check": "Every formal source and build-configuration hash matches this successfully verified snapshot. Publication documentation is checked separately."
+}
